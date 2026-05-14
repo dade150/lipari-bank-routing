@@ -4,6 +4,7 @@
   <nav>
     @if (isLoggedIn()) {
       <a routerLink="/dashboard" routerLinkActive="active-link">Dashboard</a>
+      <a routerLink="/profile" routerLinkActive="active-link">Il mio profilo</a>
       @if (isAdmin()) {
         <a routerLink="/admin" routerLinkActive="active-link">Admin</a>
       }
